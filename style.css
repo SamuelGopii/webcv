@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100vw;
+}
+.container{
+    width: 100vw;
+}
+header{
+    width: 100vw;
+    height: 30vh;
+}
+nav{
+    width: 90vw;
+    height: 30vh;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.profile{
+    width: 40%;
+    height: 30vh;
+}
+nav ul{
+    width: 60%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul li a{
+    padding: 10px 65px;
+    color: rgb(4, 4, 4);
+    text-decoration: none;
+    transition: all 800ms;
+} 
+nav ul li a:hover{
+    padding: 10px 65px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    text-decoration: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 5px rgb(213, 211, 211),-1px -1px 5px rgb(206, 205, 205);
+} 
+nav ul li{
+    list-style-type: none;
+}
+.social-icons{
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid hotpink;
+    margin: 25px 0px 0px 190px;
+}
+.profile h1{
+    margin: 0px 0px 0px 175px;
+    padding: 5px 0px 20px 0px;
+}
+
+/* Tags Section*/
+main{
+    width: 90vw;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.side-section{
+    width: 70vw;
+    height: 60vh;
+    background-color: rgb(241, 241, 241);
+    position: relative;
+}
+.side-section::before{
+    content:" ";
+    width: 2px;
+    height: 300px;
+    background-color: rgb(101, 68, 34);
+    position: absolute;
+    top: 50px;
+    left: 2px;
+}
+.info-tags{
+    width: 30vw;
+    height: 60vh;
+    padding: 50px;
+    line-height: 40px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
+}
+.info-tags ul li{
+    list-style-type: none;
+    font-size: 18px;
+    transition: all 500ms;
+}
+.info-tags ul li:hover{
+    color: rgb(225, 45, 248);
+    cursor: pointer;
+    transform: translateX(15px);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px rgb(206, 205, 205);
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.info-tags h1{
+    padding-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 5px rgb(206, 205, 205);
+    padding-left: 55px;
+    padding-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+/* Styling of personal information*/
